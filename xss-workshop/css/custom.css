@@ -1,0 +1,95 @@
+
+.bg {
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("/images/Archaeopteryx_fossil.jpg");
+    position: fixed;
+    width: 100%;
+    height: 350px; /*same height as jumbotron */
+    top:0;
+    left:0;
+    z-index: -2;
+  }
+  
+  .bg2 {
+    background: url("../images/dinosaur-provincial.jpg");
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; /*same height as splashpage */
+    top:0;
+    left:0;
+    z-index: -2;
+  }
+
+  .jumbotron {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 350px;
+    color: white;
+    background: transparent;
+  }
+
+  .splashpage {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 1000px;
+    color: white;
+    background: transparent;
+  }
+
+
+  .article {
+      background-color: white;
+      align-items: center;
+      margin: auto;
+  }
+
+  .content {
+      margin: auto;
+      max-width: 50%;
+  }
+
+  .this-footer {
+    min-height: 50px;
+    margin-top: -50px;
+    text-align: center;
+    position: fixed; 
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+  }
+
+  .blockquote {
+    border: 1px solid #b3b3b3;
+    border-left: 10px solid #b3b3b3;
+    border-radius: 0px;
+    background: #fafafa;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    }
+    
+  .blockquote p {
+    margin: 0;
+    line-height: 30px;
+    padding-bottom: 20px;
+    }
+    
+  .blockquote .small {
+    display: block;
+    font-size: 80%;
+    color: brown;
+    text-align: right;
+    } 
+
+  .vertical{
+    margin-top: 10%;
+  }
+
+
+
+
